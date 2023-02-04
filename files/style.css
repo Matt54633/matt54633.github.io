@@ -184,4 +184,10 @@ a:active {
   .item_8 { grid-area: 7 / 1 / 8 / 3; }
   .item_9 { grid-area: 6 / 1 / 7 / 3; }
 }
+/* prevent hover on touchscreens */
+@media(hover: none) {
+  .grid_item:hover {
+    transform: skewY(0deg);
+  }
+}
 
