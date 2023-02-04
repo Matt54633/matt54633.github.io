@@ -39,8 +39,6 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&appid
     document.getElementById('weather_img').src = `https://matt54633.com/weather/weatherIcons/${weather[0]["icon"]}.svg`;
 });
 
-console.log(`https://api.openweathermap.org/data/2.5/weather?q=${searchLocation}&appid=${apiKey}&units=metric`);
-
 function capitaliseConditions(conditionsType) {
     conditionsType = JSON.stringify(conditionsType).replaceAll('"', '');
     conditionsType = conditionsType.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
