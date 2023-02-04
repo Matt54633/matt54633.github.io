@@ -96,9 +96,8 @@ body {
   font-weight: 400;
   margin: clamp(-0.5rem, -0.5vw + 0.4rem, -0.75rem) clamp(1rem, 1vw + 0.8rem, 1.5rem) clamp(1rem, 1vw + 0.8rem, 1.5rem) clamp(1rem, 1vw + 0.8rem, 1.5rem);
 }
-#github_profile {
+#github_container {
   margin: clamp(1rem, 1vw + 0.8rem, 1.5rem);
-  margin-bottom: 0;
 }
 a,
 a:link,
