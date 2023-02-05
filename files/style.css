@@ -105,6 +105,7 @@ body {
 }
 #github_container {
   margin: clamp(1rem, 1vw + 0.8rem, 1.5rem);
+  height: 0;
 }
 a,
 a:link,
