@@ -28,7 +28,7 @@ body {
 #information_title, #footer_title {
   font-size: var(--small_font);
   font-style: italic;
-  margin: 3.5rem 11.5vw 2rem 11.5vw;
+  margin: 2rem 11.5vw 2rem 11.5vw;
   font-weight: 400;
   animation: shrink_in 0.75s;
 }
@@ -157,9 +157,6 @@ a:active {
 #weather_link {
   margin: 0 clamp(1rem, 1vw + 0.8rem, 1.5rem)  clamp(1rem, 1vw + 0.8rem, 1.5rem)  clamp(1rem, 1vw + 0.8rem, 1.5rem);
 }
-#footer_title {
-  margin: 2rem 11.5vw 2rem 11.5vw;
-}
 @keyframes shrink_in {
   0% {
     opacity: 0;
@@ -181,7 +178,7 @@ a:active {
     background-size: 12.5vw 12.5vw;
   }
   #information_title {
-    margin: 4rem 7.5vw 1rem 7.5vw;
+    margin: 3.2rem 7.5vw 1rem 7.5vw;
   }
   #grid_section {
     margin: 0 7.5vw 0 7.5vw;
@@ -201,7 +198,7 @@ a:active {
   .item_8 { grid-area: 7 / 1 / 8 / 3; }
   .item_9 { grid-area: 6 / 1 / 7 / 3; }
   #footer_title {
-    margin: 1rem 7.5vw 2rem 7.5vw;
+    margin: 0rem 7.5vw 2rem 7.5vw;
   }
 }
 
