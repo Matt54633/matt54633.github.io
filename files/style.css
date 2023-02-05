@@ -54,6 +54,7 @@ body {
   animation: shrink_in 0.75s;
   transform: skewy(0deg);
   transition: all 0.25s;
+  box-shadow: 3px 3px 10px #eeeeee;
 }
 .grid_item:hover {
   transform: skewy(-2deg);
@@ -209,11 +210,9 @@ a:active {
     margin: 0rem 7.5vw 2rem 7.5vw;
   }
 }
-
 /* prevent hover on touchscreens */
 @media(hover: none) {
   .grid_item:hover {
     transform: skewY(0deg);
   }
 }
-
