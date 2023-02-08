@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --medium_font: clamp(0.8rem, 1vw + 1rem, 1.6rem);
+}
+
+body {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  cursor: crosshair;
+  font-family: "Space Mono", sans-serif;
+  background-size: 5vw 5vw;
+  background-image: 
+    linear-gradient(to right,#eeeeee92 0.15rem,transparent 0.15rem),
+    linear-gradient(to bottom, #eeeeee92 0.15rem, transparent 0.15rem);
+}
+#canvas_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+canvas {
+  display: block;
+  height: 100% !important;
+  height: 100% !important;
+}
+#title {
+  top: 0;
+}
+#redirect {
+  bottom: 0;
+  text-decoration: underline;
+}
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+  color: black;
+  border: none;
+}
+h1 {
+  margin: clamp(1rem, 1vw + 0.8rem, 1.5rem) 0;
+  font-size: var(--medium_font);
+  color: black;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}

@@ -172,6 +172,7 @@ a:active {
     transform: scale(1.0);
   }
 }
+
 /* portrait screens */
 @media screen and (orientation: portrait) {
   :root {
