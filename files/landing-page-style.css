@@ -54,3 +54,19 @@ h1 {
   text-align: center;
   left: 0;
 }
+img {
+    position: absolute;
+    margin: 0;
+    width: clamp(3rem, 3vw + 3rem, 5rem);
+    animation: pulse 2s infinite;
+    opacity: 0.3;
+}
+@keyframes pulse {
+    from{
+        transform: scale(1.0);
+    } 50% {
+        transform: scale(1.5);
+    } to {
+        transform: scale(1.0);
+    }
+}
