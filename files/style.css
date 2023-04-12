@@ -18,6 +18,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  display: flex;
+  justify-content: center;
 }
 body {
   background: var(--white);
@@ -28,7 +30,9 @@ body {
   background-image: 
     linear-gradient(to right,#eeeeee92 0.15rem,transparent 0.15rem),
     linear-gradient(to bottom, #eeeeee92 0.15rem, transparent 0.15rem);
+  background-attachment: fixed;
   font-family: "Space Mono", sans-serif;
+  width: min(100%, 1700px);
 }
 #information_title, #footer_title {
   font-size: var(--small_font);
@@ -45,7 +49,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 2rem;
-  width: min(100%, 1400px);
 }
 .grid_item {
   position: relative;
